@@ -1,0 +1,26 @@
+body {
+    background-color: #ecf1f8;
+}
+
+/* Estilo para a div que envolve a tabela */
+.scrollable-table {
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+    height: 200px; /* Altura máxima da área visível */
+    width: 300px; /* Largura máxima da área visível */
+    border: 1px solid #ccc; /* Adiciona uma borda para visualização */
+}
+
+/* Estilo opcional para a tabela */
+table {
+    width: 100%; /* Define a largura da tabela como 100% */
+    border-collapse: collapse; /* Combina as bordas das células */
+    background-color: black;
+}
+
+/* Estilo opcional para as células da tabela */
+th, td {
+    border: 1px solid #ddd; /* Adiciona uma borda às células */
+    padding: 8px; /* Adiciona um preenchimento interno às células */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
